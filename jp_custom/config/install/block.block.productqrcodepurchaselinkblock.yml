@@ -1,0 +1,28 @@
+uuid: null
+langcode: en
+status: true
+dependencies:
+  module:
+    - jp_custom
+    - node
+  theme:
+    - bartik
+id: productqrcodepurchaselinkblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: product_qr_code_block
+settings:
+  id: product_qr_code_block
+  label: 'Product QR code purchase link block'
+  label_display: '0'
+  provider: jp_custom
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      product: product

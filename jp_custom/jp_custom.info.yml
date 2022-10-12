@@ -1,0 +1,5 @@
+name: JP custom
+type: module
+description: 'Enables the product content type and related functionalities.'
+package: Custom
+core_version_requirement: ^8.8 || ^9

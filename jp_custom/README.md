@@ -1,5 +1,3 @@
-This Module Installs a product content type and a QR code block which populate an app puchase link when scanned from the product detail page. App purchase link is a field in the content type itself.
-
 Installation
 ------------
 

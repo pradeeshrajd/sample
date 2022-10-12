@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Custom fuctionalities for products.
+ */
+
+
+ /**
+ * Implements hook_theme().
+ */
+function jp_custom_theme(){
+  return [
+    'product_qr_code' => [
+      'variables' => [
+        'vars' => NULL
+      ],
+    ],
+  ];
+}
